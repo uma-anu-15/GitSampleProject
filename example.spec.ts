@@ -3,7 +3,8 @@ import { test, expect } from '@playwright/test';
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
   await expect(page).toHaveTitle(/Playwright/);
-  console.log("Day3");
+  console.log("Day2");
+  console.log("Day3")
   console.log("Day4")
 });
 
